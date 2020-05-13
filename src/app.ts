@@ -21,8 +21,9 @@ class App {
   }
 
   private database (): void {
-    mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-7golp.mongodb.net/dashboardProducts?retryWrites=true&w=majority', {
-      useNewUrlParser: true
+    mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-7golp.mongodb.net/ProductsDashboard?retryWrites=true&w=majority', {
+      useNewUrlParser: true,
+      useUnifiedTopology: true
     })
   }
 
