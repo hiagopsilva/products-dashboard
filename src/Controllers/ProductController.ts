@@ -14,6 +14,12 @@ class ProductController {
 
     return res.json(products)
   }
+
+  public async show (req: Request, res: Response): Promise<Response> {
+    const product = await Product.findById(req.params.id)
+
+    return res.json(product)
+  }
 }
 
 export default new ProductController()
