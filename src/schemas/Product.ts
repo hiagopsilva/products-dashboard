@@ -1,16 +1,30 @@
 import { Schema, model, Document } from 'mongoose'
 
 interface ProductInterface extends Document {
-  id ?: number,
-  name ?: string,
+  title ?: string,
+  brandName ?: string,
+  ItemModel ?: string,
+  Color ?: string,
+  MemorySize ?: number,
+  HardDiskSize ?: string,
+  DisplayResolution ?: string,
+  GraphicsCard ?: string,
+  processor ?: string,
   description ?: string,
   price ?: number
 }
 
 const ProductSchema = new Schema({
-  id: Number,
-  name: String,
+  title: String,
+  brandName: String,
+  ItemModel: String,
+  Color: String,
+  MemorySize: Number,
+  HardDiskSize: String,
+  DisplayResolution: String,
+  GraphicsCard: String,
   description: String,
+  processor: String,
   price: Number
 }, {
   timestamps: true
