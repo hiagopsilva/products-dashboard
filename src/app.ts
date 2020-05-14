@@ -23,7 +23,8 @@ class App {
   private database (): void {
     mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-7golp.mongodb.net/ProductsDashboard?retryWrites=true&w=majority', {
       useNewUrlParser: true,
-      useUnifiedTopology: true
+      useUnifiedTopology: true,
+      useFindAndModify: false
     })
   }
 
