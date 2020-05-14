@@ -20,6 +20,12 @@ class ProductController {
 
     return res.json(product)
   }
+
+  public async update (req: Request, res: Response): Promise<Response> {
+    const product = await Product.findByIdAndUpdate(req.params.id, req.body, { new: true })
+
+    return res.json(product)
+  }
 }
 
 export default new ProductController()
