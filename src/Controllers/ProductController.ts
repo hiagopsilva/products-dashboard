@@ -26,6 +26,12 @@ class ProductController {
 
     return res.json(product)
   }
+
+  public async destroy (req: Request, res: Response): Promise<Response> {
+    await Product.findByIdAndRemove(req.params.id)
+
+    return res.json({ message: 'Product Deleted' })
+  }
 }
 
 export default new ProductController()
