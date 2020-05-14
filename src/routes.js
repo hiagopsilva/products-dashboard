@@ -5,7 +5,8 @@ import ProductController from './Controllers/ProductController'
 const routes = Router()
 
 routes.get('/dashboard', ProductController.index)
-routes.post('/newProduct', ProductController.store)
 routes.get('/listProduct/:id', ProductController.show)
+routes.post('/newProduct', ProductController.store)
+routes.put('/product/:id', ProductController.update)
 
 export default routes
