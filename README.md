@@ -81,7 +81,7 @@
 
 Give a ⭐️ if this project helped you!
 
-if you find any bug or error, leave me a pull request!
+**if you find any bug or error, leave me a pull request!**
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
