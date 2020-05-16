@@ -29,14 +29,14 @@
 ### dashboard 
   The route ```/dashboard``` lists all DB products. 
   
-  It uses the controller ```index```.
+  It uses the controller ```index()```.
 
 ### listProduct 
   The route ```/listProduct``` lists a single product passing the route ID as a parameter. 
   
   EX: ```http://localhost:3000/listProduct/ID``` 
 
-  It uses the controller ```show```.
+  It uses the controller ```show()```.
 
 ### newProduct 
   The route ```/newProduct``` creates a product by passing values ​​through ```req.body```.
@@ -54,21 +54,21 @@
   * description = String
   * price = Number
   
-  It uses the controller ```store```.
+  It uses the controller ```store()```.
 
 ### product
   The route ```/product``` edit a product by passing the ID as a route parameter.
   
   EX:  ```http://localhost:3000/listProduct/ID```
 
-  It uses the controller ```update```
+  It uses the controller ```update()```
 
 ### deleteProduct
   The route ```/deleteProduct``` delete a product by passing the ID as a route parameter.
   
   Ex: ```http://localhost:3000/listProduct/ID```
   
-  It uses the controller ```destroy```.
+  It uses the controller ```destroy()```.
 
 ## Author
 
