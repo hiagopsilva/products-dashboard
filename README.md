@@ -21,15 +21,15 @@
 * LinkedIn: [Hiago Prates](https://www.linkedin.com/in/hiago-prates-04902b132/)
 
 ## Dependencies 
-  eslint
-  prettier
-  typescript
-  nodemon
-  express
-  sucrase
-  mongoose
-  readme-md-generator
-  cors
+  * eslint
+  * prettier
+  * typescript
+  * nodemon
+  * express
+  * sucrase
+  * mongoose
+  * readme-md-generator
+  * cors
 
 ## Routes
 
@@ -46,7 +46,8 @@ Essa Rota utiliza o metodo ```show``` do controller.
 ### newProduct 
   A rota ```/newProduct``` cria um produto pessando os dados ela o ```req.body```.
 
-  EX: ``` {
+  EX: ``` 
+  {
     "title": "Notebook Acer i3 4gb",
     "brandName": "Acer",
     "ItemModel": "aspire 3",
@@ -58,15 +59,25 @@ Essa Rota utiliza o metodo ```show``` do controller.
     "processor": "i3",
     "description": "Notebook Acer i3 4gb",
     "price": 1.400
-  }``` 
+  }
+  ``` 
   
   Essa rota utiliza o metodo ```store``` do controller.
 
 ### product
-  A rota ```/product``` edita um produto passando como parametro o ID pela rota.
+  A rota ```/product``` edita um produto passando o ID como parametro da rota.
   
-  EX:  ``` ```
-deleteProduct destroy
+  EX:  ```http://localhost:3000/listProduct/ID```
+
+  Essa rota utiliza o metodo ```update``` do controller.
+
+### deleteProduct
+  A rota ```/deleteProduct``` deleta um produto passando o ID como parametro da rota.
+  
+  Ex: ```http://localhost:3000/listProduct/ID```
+  
+  Essa rota utiliza o metodo ```destroy``` do controller.
+
 
 ## Show your support
 
