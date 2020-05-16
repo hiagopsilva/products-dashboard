@@ -34,46 +34,48 @@
 ## Routes
 
 ### dashboard 
- A Rota ```/dashboard``` lista todos os produtos do banco. Ela utiliza o metodo ````index``` do controller.
+  The route ```/dashboard``` lists all DB products. 
+  
+  It uses the controller ```index```.
 
 ### listProduct 
-  A rota ```/listProduct``` lista um unico produto passando como parametro o ID pela rota. 
+  The route ```/listProduct``` lists a single product passing the route ID as a parameter. 
   
-EX: ```http://localhost:3000/listProduct/ID``` 
+  EX: ```http://localhost:3000/listProduct/ID``` 
 
-Essa Rota utiliza o metodo ```show``` do controller.
+  It uses the controller ```show```.
 
 ### newProduct 
-  A rota ```/newProduct``` cria um produto pessando os dados ela o ```req.body```.
+  The route ```/newProduct``` creates a product by passing values ​​through ```req.body```.
 
-  ##### Para cadastrar, essa rota recebe os valores:
+  #### To register, a route receives the values:
   * title = String
   * brandName = String
-  * ItemModel = String
-  * Color = String
-  * MemorySize = Number
-  * HardDiskSize = String
-  * DisplayResolution = String
-  * GraphicsCard = String
+  * itemModel = String
+  * color = String
+  * memorySize = Number
+  * hardDiskSize = String
+  * displayResolution = String
+  * graphicsCard = String
   * processor = String
   * description = String
   * price = Number
   
-  Essa rota utiliza o metodo ```store``` do controller.
+  It uses the controller ```store```.
 
 ### product
-  A rota ```/product``` edita um produto passando o ID como parametro da rota.
+  The route ```/product``` edit a product by passing the ID as a route parameter.
   
   EX:  ```http://localhost:3000/listProduct/ID```
 
-  Essa rota utiliza o metodo ```update``` do controller.
+  It uses the controller ```update```
 
 ### deleteProduct
-  A rota ```/deleteProduct``` deleta um produto passando o ID como parametro da rota.
+  The route ```/deleteProduct``` delete a product by passing the ID as a route parameter.
   
   Ex: ```http://localhost:3000/listProduct/ID```
   
-  Essa rota utiliza o metodo ```destroy``` do controller.
+  It uses the controller ```destroy```.
 
 
 ## Show your support
