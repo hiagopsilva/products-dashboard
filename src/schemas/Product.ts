@@ -3,12 +3,12 @@ import { Schema, model, Document } from 'mongoose'
 interface ProductInterface extends Document {
   title ?: string,
   brandName ?: string,
-  ItemModel ?: string,
-  Color ?: string,
-  MemorySize ?: number,
-  HardDiskSize ?: string,
-  DisplayResolution ?: string,
-  GraphicsCard ?: string,
+  itemModel ?: string,
+  color ?: string,
+  memorySize ?: number,
+  hardDiskSize ?: string,
+  displayResolution ?: string,
+  graphicsCard ?: string,
   processor ?: string,
   description ?: string,
   price ?: number
@@ -17,14 +17,14 @@ interface ProductInterface extends Document {
 const ProductSchema = new Schema({
   title: String,
   brandName: String,
-  ItemModel: String,
-  Color: String,
-  MemorySize: Number,
-  HardDiskSize: String,
-  DisplayResolution: String,
-  GraphicsCard: String,
-  description: String,
+  itemModel: String,
+  color: String,
+  memorySize: Number,
+  hardDiskSize: String,
+  displayResolution: String,
+  graphicsCard: String,
   processor: String,
+  description: String,
   price: Number
 }, {
   timestamps: true
