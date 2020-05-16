@@ -47,17 +47,17 @@ Essa Rota utiliza o metodo ```show``` do controller.
   A rota ```/newProduct``` cria um produto pessando os dados ela o ```req.body```.
 
   Para cadastrar, essa rota recebe os valores:
-    ```title = String,
-    brandName = String,
-    ItemModel = String,
-    Color = String,
-    MemorySize = Number,
-    HardDiskSize = String,
-    DisplayResolution = String,
-    GraphicsCard = String,
-    processor = String,
-    description = String,
-    price = Number``` 
+    * title = String,
+    * brandName = String,
+    * ItemModel = String,
+    * Color = String,
+    * MemorySize = Number,
+    * HardDiskSize = String,
+    * DisplayResolution = String,
+    * GraphicsCard = String,
+    * processor = String,
+    * description = String,
+    * price = Number
   
   Essa rota utiliza o metodo ```store``` do controller.
 
