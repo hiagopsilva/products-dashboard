@@ -46,28 +46,17 @@ Essa Rota utiliza o metodo ```show``` do controller.
 ### newProduct 
   A rota ```/newProduct``` cria um produto pessando os dados ela o ```req.body```.
 
-  EX: ``` 
-  {
+  EX: ``` {
     "title": "Notebook Acer i3 4gb",
-
     "brandName": "Acer",
-    
     "ItemModel": "aspire 3",
-    
     "Color": "white",
-    
     "MemorySize": 4,
-    
     "HardDiskSize": "500 gb",
-    
     "DisplayResolution": "1366 x 768",
-    
     "GraphicsCard": "Intel 4000",
-    
     "processor": "i3",
-    
     "description": "Notebook Acer i3 4gb",
-    
     "price": 1.400
   }``` 
   
