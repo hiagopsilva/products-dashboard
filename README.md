@@ -13,13 +13,6 @@
 * Create a local folder on your machine and clone the repository.
 * Then open the command prompt and run the command ```yarn install``` and then run ```yarn dev``` to start the application.
 
-## Author
-
-👤 **Hiago Prates**
-
-* Github: [@hiagopsilva](https://github.com/hiagopsilva)
-* LinkedIn: [Hiago Prates](https://www.linkedin.com/in/hiago-prates-04902b132/)
-
 ## Dependencies 
   * eslint
   * prettier
@@ -77,10 +70,18 @@
   
   It uses the controller ```destroy```.
 
+## Author
+
+👤 **Hiago Prates**
+
+* Github: [@hiagopsilva](https://github.com/hiagopsilva)
+* LinkedIn: [Hiago Prates](https://www.linkedin.com/in/hiago-prates-04902b132/)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+if you find any bug or error, leave me a pull request
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
