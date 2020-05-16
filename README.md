@@ -26,47 +26,47 @@
 
 ## Routes
 
-### dashboard 
+### Dashboard 
   The route ```/dashboard``` lists all DB products. 
   
   It uses the controller ```index()```.
 
-### listProduct 
+### ListProduct 
   The route ```/listProduct``` lists a single product passing the route ID as a parameter. 
   
-  EX: ```http://localhost:3000/listProduct/ID``` 
+  **EX:** ```http://localhost:3000/listProduct/ID``` 
 
   It uses the controller ```show()```.
 
-### newProduct 
+### NewProduct 
   The route ```/newProduct``` creates a product by passing values ​​through ```req.body```.
 
   #### To register, a route receives the values:
-  * title = String
-  * brandName = String
-  * itemModel = String
-  * color = String
-  * memorySize = Number
-  * hardDiskSize = String
-  * displayResolution = String
-  * graphicsCard = String
-  * processor = String
-  * description = String
-  * price = Number
+  * **title** = String
+  * **brandName** = String
+  * **itemModel** = String
+  * **color** = String
+  * **memorySize** = Number
+  * **hardDiskSize** = String
+  * **displayResolution** = String
+  * **graphicsCard** = String
+  * **processor** = String
+  * **description** = String
+  * **price** = Number
   
   It uses the controller ```store()```.
 
-### product
+### Product
   The route ```/product``` edit a product by passing the ID as a route parameter.
   
-  EX:  ```http://localhost:3000/listProduct/ID```
+  **EX:**  ```http://localhost:3000/listProduct/ID```
 
   It uses the controller ```update()```
 
-### deleteProduct
+### DeleteProduct
   The route ```/deleteProduct``` delete a product by passing the ID as a route parameter.
   
-  Ex: ```http://localhost:3000/listProduct/ID```
+  **Ex:** ```http://localhost:3000/listProduct/ID```
   
   It uses the controller ```destroy()```.
 
