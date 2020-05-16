@@ -31,6 +31,43 @@
   readme-md-generator
   cors
 
+## Routes
+
+### dashboard 
+ A Rota ```/dashboard``` lista todos os produtos do banco. Ela utiliza o metodo ````index``` do controller.
+
+### listProduct 
+  A rota ```/listProduct``` lista um unico produto passando como parametro o ID pela rota. 
+  
+EX: ```http://localhost:3000/listProduct/ID``` 
+
+Essa Rota utiliza o metodo ```show``` do controller.
+
+### newProduct 
+  A rota ```/newProduct``` cria um produto pessando os dados ela o ```req.body```.
+
+  EX: ``` {
+    "title": "Notebook Acer i3 4gb",
+    "brandName": "Acer",
+    "ItemModel": "aspire 3",
+    "Color": "white",
+    "MemorySize": 4,
+    "HardDiskSize": "500 gb",
+    "DisplayResolution": "1366 x 768",
+    "GraphicsCard": "Intel 4000",
+    "processor": "i3",
+    "description": "Notebook Acer i3 4gb",
+    "price": 1.400
+  }``` 
+  
+  Essa rota utiliza o metodo ```store``` do controller.
+
+### product
+  A rota ```/product``` edita um produto passando como parametro o ID pela rota.
+  
+  EX:  ``` ```
+deleteProduct destroy
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
