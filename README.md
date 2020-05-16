@@ -6,20 +6,30 @@
   </a>
 </p>
 
-> Uma aplicação backend com a finalidade de um CRUD simples de produtos/notebooks.
+> A back-end application with a simple use of CRUD products / notebooks.
 
 ## Install
 
-```sh
-yarn install
-```
+* Create a local folder on your machine and clone the repository.
+* Then open the command prompt and run the command ```yarn install``` and then run ```yarn dev``` to start the application.
 
 ## Author
 
 👤 **Hiago Prates**
 
 * Github: [@hiagopsilva](https://github.com/hiagopsilva)
-* LinkedIn: 'https://www.linkedin.com/in/hiago-prates-04902b132/'
+* LinkedIn: [Hiago Prates](https://www.linkedin.com/in/hiago-prates-04902b132/)
+
+## Dependencies 
+  eslint
+  prettier
+  typescript
+  nodemon
+  express
+  sucrase
+  mongoose
+  readme-md-generator
+  cors
 
 ## Show your support
 
